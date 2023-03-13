@@ -11,6 +11,5 @@ const About= () =>{
     </div>
   );
 }
-export default Dogs;
+export default About;
 
-Dogs.js
