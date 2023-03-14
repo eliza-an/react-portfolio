@@ -1,6 +1,6 @@
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import navBar from "../components/navbar"
+import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
+import Navbar from "../components/navbar"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
@@ -8,13 +8,17 @@ import Contact from "./Contact"
 function App() {
   return (
     <Router>
-      <navBar />
-     
-        <Route path='./About' element={<About/>} /> 
-        <Route path='./Portfolio' element={<Portfolio/>} />
-        <Route path='./Contact' element={<Contact/>} />
+        <Routes>
         
-     
+          
+            <Route path='/' element={<Navbar />} /> 
+            <Route path='/' element={<About/>} /> 
+            <Route path='/' element={<Portfolio/>} />
+            <Route path='/' element={<Contact/>} />
+            
+        
+      
+    </Routes>  
     </Router>
   );
 }

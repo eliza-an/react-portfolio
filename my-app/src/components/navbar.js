@@ -1,6 +1,6 @@
 import {  Link } from "react-router-dom";
 import React from 'react';
-let navBar= () =>{
+let Navbar= () =>{
   return (
   <header>
     <ul>
@@ -17,4 +17,4 @@ let navBar= () =>{
   </header>
   );
 }
-export default navBar;
+export default Navbar;
