@@ -1,20 +1,24 @@
 
 import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
-import Navbar from "../components/navbar"
+import Navbar from "../components/navbar/navbar"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
 
+
 function App() {
   return (
-    <Router>
+     
+      <Router> 
+        <Navbar className="nav"/>
         <Routes>
         
-          
-            <Route path='/' element={<Navbar />} /> 
+        
+        
+           
             <Route path='/' element={<About/>} /> 
-            <Route path='/' element={<Portfolio/>} />
-            <Route path='/' element={<Contact/>} />
+            <Route path='/Portfolio' element={<Portfolio/>} />
+            <Route path='/Contact' element={<Contact/>} />
             
         
       
