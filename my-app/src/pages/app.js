@@ -4,6 +4,8 @@ import Navbar from "../components/navbar/navbar"
 import About from "./About"
 import Portfolio from "./Portfolio"
 import Contact from "./Contact"
+import Home from "./Home"
+
 
 
 function App() {
@@ -15,8 +17,8 @@ function App() {
         
         
         
-           
-            <Route path='/' element={<About/>} /> 
+            <Route path='/' element={<Home/>} />
+            <Route path='/About' element={<About/>} /> 
             <Route path='/Portfolio' element={<Portfolio/>} />
             <Route path='/Contact' element={<Contact/>} />
             
