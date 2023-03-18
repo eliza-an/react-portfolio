@@ -22,9 +22,9 @@ let Navbar= () =>{
    <li></li>
 </ul>
  
-<div className="icondiv">
- <FontAwesomeIcon className="icon" icon="fa-solid fa-bars"  size="2x"/></div>
- 
+
+ <FontAwesomeIcon className="icon" icon="fa-solid fa-bars"  size="2x"/>
+
     <ul className="navigation">
         <li className="navbar">
         <Link to="/about">About</Link>

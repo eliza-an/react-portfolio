@@ -1,20 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cardo&family=DotGothic16&display=swap');
+
+
 body{
  background-color: black;
-   
+ font-family: 'Cardo', serif;
 }
 
 .img{
-    max-width: 200px;
-    display: ;
+    max-width: 300px;
+   
 }
 
 
 .text1{
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Cardo', serif;
     text-align: center;
     font-size: 50px;
     padding: 10px;
+    padding-bottom: 0% !important;
+    margin-bottom: 20px !important;
   }
   
   .imageDiv{
@@ -22,3 +28,17 @@ body{
     justify-content: center;
   }
   
+  .btn{
+    display: flex;
+    justify-content: center;
+padding-bottom: 20px;
+
+  }
+
+  .btn2{
+    padding: 20px;
+    background-color: #971411;
+    border-radius: 20px;
+border: none;
+width: 200px;
+  }
