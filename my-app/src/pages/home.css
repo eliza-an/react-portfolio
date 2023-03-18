@@ -17,3 +17,8 @@ body{
     padding: 10px;
   }
   
+  .imageDiv{
+    display: flex;
+    justify-content: center;
+  }
+  
