@@ -6,8 +6,10 @@ const About= () =>{
     <div>
       
       <div> 
-        <img  className="img" alt= " of me " src="/img/circle.png"/>
-       <h1 className='text1'>Your Next Front-End Web Developer</h1> 
+       <h1 className='text1'>Your Next Front-End Web Developer</h1>  
+       <img  className="img" alt= " of me " src="/img/circle.png"/>
+
+       
        
        
       </div>
