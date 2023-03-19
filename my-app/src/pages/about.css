@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=DotGothic16&display=swap');
+
+
 .img2{
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 80px;
 }
+
+p{
+    color: white;
+    font-family: 'Cardo', serif;
+}
+
+.about{
+    color: white;
+    font-family: 'Cardo', serif;
+    padding-left: 20px;
+}
+
+.imageDiv2{
+display:inline-flex;
+
+}
+
+
