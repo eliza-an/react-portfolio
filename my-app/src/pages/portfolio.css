@@ -18,6 +18,8 @@ body{
     justify-content: center;
     flex-direction: column;
     border: 1px solid white;
+    margin: 20px;
+    padding: 5px;
 }
 
 .cardtext{
@@ -26,5 +28,10 @@ body{
 
 .cardtitle{
     color: white;
+    display: flex;
+    justify-content: center;
 
+}
+a{
+    color: aliceblue;
 }
