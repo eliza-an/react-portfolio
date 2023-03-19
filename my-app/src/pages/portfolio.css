@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=DotGothic16&display=swap');
+
+body{
+    font-family: 'Cardo', serif;
+}
+
+.title{
+    color: white;
+}
+
+.computer1{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.firstCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.cardtext{
+    display: grid;
+}
+
+.cardtitle{
+    color: white;
+
+}
