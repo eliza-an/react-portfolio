@@ -4,7 +4,7 @@
   padding: 0;
   text-align: end;
   font-size: 20px;
-  display: none;
+  
   }
 
 
@@ -41,7 +41,10 @@ background-color: black;
   color: red;
 }
 
-
+.displayicon{
+  background:none;
+  border: none;
+}
 
 .myName{
 font-size: 30px;

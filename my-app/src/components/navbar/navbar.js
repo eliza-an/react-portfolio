@@ -4,9 +4,12 @@ import "./style.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { useState } from "react";
 
 
 library.add(faBars) 
+
+  
 
 
 
@@ -23,7 +26,7 @@ let Navbar= () =>{
 </ul>
  
 
- <FontAwesomeIcon className="icon" icon="fa-solid fa-bars"  size="2x"/>
+
 
     <ul className="navigation">
         <li className="navbar">
