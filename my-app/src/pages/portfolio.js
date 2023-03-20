@@ -32,21 +32,21 @@ const Portfolio= () =>{
       <div className='firstCard'>
         <h2 className='cardtitle'>Daily Planner application</h2>
        <div className="imageDiv"> <img  className="computer1" src="/img/computer4.jpg"></img></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>This application was created as a daily time tracker. It's main purpose was to track your day to day activities by the hour and notify you of those activities that have passed. The link to the repo is <a href="https://github.com/eliza-an/daily-planner-application">here</a> and the link for the repo is <a href='https://eliza-an.github.io/daily-planner-application/'>here</a>.</p>
   
       </div>
 
       <div className='firstCard'>
-        <h2 className='cardtitle'>Random Password Generator</h2>
+        <h2 className='cardtitle'>Team Profile Generator</h2>
        <div className="imageDiv"> <img  className="computer1" src="/img/computer5.jpg"></img></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>The team profile generator is an application that allows you to create a team profile using node.js. The aim of this application was to learn test driven development and therefore pass all tests The link to the repo is <a href="https://github.com/eliza-an/team-profile-generator">here</a>. </p>
   
       </div>
 
       <div className='firstCard'>
         <h2 className='cardtitle'>Coding Quiz game</h2>
        <div className="imageDiv"> <img  className="computer1" src="/img/computer6.jpg"></img></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>This is a simple javascript coding quiz game. The app uses local storage to store and display your previous results. Given you andswer incorrectly, 5 seconds willbe subtracted from the timer.The link to the repo is <a href="https://github.com/eliza-an/coding-quiz-game">here</a> and the link for the repo is <a href='https://eliza-an.github.io/coding-quiz-game/'>here</a>.</p>
   
       </div>
     </div>
