@@ -1,0 +1,13 @@
+.links{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding: 30px;
+}
+.yeet{
+height: 40px;
+}
+.textcontact{
+    text-align: center;
+}

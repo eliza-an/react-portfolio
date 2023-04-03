@@ -4,6 +4,7 @@ import { fas, faEnvelope  } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faBrands, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { fab, } from '@fortawesome/free-brands-svg-icons'
+import "./contact.css"
 
 
 library.add( fas, faLinkedin, faGithub, fab, faEnvelope)
@@ -14,24 +15,26 @@ const Contact = () =>{
     <div>
       <h3>Contact</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div id="linkedin">
+        <p className='textcontact'>Please feel free to contact me using the following links</p>
+        <div className='links'>
+        <div id="linkedin" className='icon'>
           <a href="https://www.linkedin.com/in/elizaveta-anufrieva/">
-          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          <FontAwesomeIcon icon="fa-brands fa-linkedin" className='yeet'/>
           </a>
         </div>
-          <div id="github">
+          <div id="github" className='icon'>
             <a href="https://github.com/eliza-an">
-              <FontAwesomeIcon icon="fa-brands fa-github" />
+              <FontAwesomeIcon icon="fa-brands fa-github" className='yeet' />
             </a>
           </div>
-          <div id="mail">
+          <div id="mail" className='icon'>
             <a href="mailto:eliza.anufrieva@gmail.com" >
-             <FontAwesomeIcon icon="fa-envelope" />
+             <FontAwesomeIcon icon="fa-envelope" className='yeet'/>
             </a>
           </div>
     </div>
-  );
+    </div>
+  )
 }
 export default Contact;
 
