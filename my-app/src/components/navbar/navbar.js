@@ -16,14 +16,10 @@ library.add(faBars)
 let Navbar= () =>{
   return (
   <header className="nav">
-    
-  <ul className="toprow">
-    <li className="myName">
-      <Link to= "/">Elizaveta Anufrieva</Link>
-      
-    </li>
-   <li></li>
-</ul>
+
+   
+      <Link to= "/" className="myName">Elizaveta Anufrieva</Link>
+
  
 
 
