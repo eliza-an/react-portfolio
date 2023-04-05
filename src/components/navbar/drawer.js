@@ -23,7 +23,7 @@ function DrawerComponent() {
         <List>
          <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/">ELizaveta Anufrieva</Link>
+              <Link to="/">Elizaveta Anufrieva</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
