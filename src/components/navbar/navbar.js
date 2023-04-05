@@ -1,23 +1,42 @@
-import {  Link } from "react-router-dom";
+
 import React from 'react';
 import "./style.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useTheme } from '@material-ui/core/styles';
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { useState } from "react";
+import {
+  AppBar,
+  Toolbar,
+  CssBaseline,
+Typography,
+  useMediaQuery,
+} from "@material-ui/core";
+import { Link } from "react-router-dom";
+import DrawerComponent from "./drawer";
+
 
 
 library.add(faBars) 
 
-  
+   
+ 
 
 
 
 let Navbar= () =>{
+   const theme = useTheme(); 
+   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   return (
-  <header className="nav">
 
-   
+   <AppBar position="static">
+      <CssBaseline />
+      <Toolbar>
+
+        {isMobile ? (
+          <DrawerComponent />
+        ) : (
+          
+      <div className="nav">
       <Link to= "/" className="myName">Elizaveta Anufrieva</Link>
 
  
@@ -35,7 +54,10 @@ let Navbar= () =>{
         <Link to="/contact/">Contact</Link>
         </li>
     </ul>
-  </header>
+  </div>
+  ) }  
+    </Toolbar> 
+        </AppBar>
   );
 }
 export default Navbar;
