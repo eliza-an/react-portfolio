@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=DotGothic16&display=swap');
 
-
+body{
+   
+}
 .img2{
-    max-width: 150px;
+    max-width: 200px;
     border-radius: 80px;
+    margin: 20px;
 }
 
 p{
@@ -22,4 +25,9 @@ display:inline-flex;
 
 }
 
+
+.para{
+    padding: 20px;
+    font-size: 20px;
+}
 
