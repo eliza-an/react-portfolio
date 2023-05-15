@@ -8,7 +8,6 @@ import {
   AppBar,
   Toolbar,
   CssBaseline,
-Typography,
   useMediaQuery,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
