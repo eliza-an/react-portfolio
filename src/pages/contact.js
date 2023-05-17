@@ -1,8 +1,8 @@
-import ReactDOM from 'react-dom'
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas, faEnvelope  } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faBrands, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { fab, } from '@fortawesome/free-brands-svg-icons'
 import "./contact.css"
 
